@@ -1,0 +1,17 @@
+.destacados{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
+}
+#caja1{
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    margin-left: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#caja2{
+    width: 300px;
+    height: 200px;
+    background-color: pink;    
+}
