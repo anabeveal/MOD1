@@ -1,27 +1,54 @@
+/*font-family: 'Noto Sans', sans-serif;*/
+.img{
+    width: 100%;
+    height: 30%;
+}
 .destacados{
     font-family: Arial, Helvetica, sans-serif;
     background-color: palevioletred;
 }
 #caja1{
-    width: 200px;
+    width: 250px;
     height: 200px;
-    background-color: pink;
+    /*background-color: pink;*/
+    background: rgb(241,26,142);
+    background: linear-gradient(148deg, rgba(241,26,142,0.9948354341736695) 0%, rgba(236,64,209,1) 49%, rgba(241,210,148,0.9220063025210083) 82%);
     text-align: justify;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
+    border-radius: 8px 68px 34px 47px;
+    border: 6px groove #5a4f4c;
+    box-shadow: -26px 20px 26px 4px rgba(0,0,0,0.75);
     margin-left: 100px;
     padding: 10px;
     box-sizing: border-box;
+
 }
 #caja2{
     width: 250px;
-    height: 200px;
-    background-color: pink;  
+    height: 250px;
+    /*background-color: pink;*/
+    background: rgb(241,26,142);
+    background: linear-gradient(202deg, rgba(241,26,142,0.9948354341736695) 0%, rgba(236,64,209,1) 48%, rgba(241,210,148,0.9220063025210083) 78%);  
     text-align: justify;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
+    border-radius: 47px 17px 25px 29px;
+    border: 6px groove #5a4f4c;
+    box-shadow: 26px 30px 26px 4px rgba(0,0,0,0.75);
     padding: 10px;
     box-sizing: border-box;
-    margin-top: 20px;  
+    margin-top: 30px;  
+    margin-bottom: 50px;
 }
 a:hover{
     color:magenta;
+}
+.texto{
+    background-color: #f1d294;
+    column-count: 3;
+    column-rule: solid black;
+    font-family: 'Noto Sans', sans-serif;
+}
+.texto h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
 }
